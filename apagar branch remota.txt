@@ -1,0 +1,9 @@
+https://www.atlassian.com/git/tutorials/syncing/git-fetch#:~:text=To%20view%20your%20remote%20branches,with%20a%20normal%20git%20merge%20.
+
+local
+git branch -D nomeBranch
+
+remoto
+git push origin --delete nomeBranch
+
+git remote update --prune origin
